@@ -2,6 +2,8 @@ import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 // import { motion } from 'framer-motion'
 import Cv from '../../assets/Fardincv.pdf'
+import { Link } from 'react-router-dom';
+
 
 const Text = () => {
     return (
@@ -29,8 +31,8 @@ const Text = () => {
             <div className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
                 <a href={Cv} download><button className='btn btn-lg bg-orange-500 text-white shadow-lg shadow-black rounded-full px-5 py-3 hover:bg-cyan-500 font-bold'>Download CV</button></a>
 
-                <a href='/contact' className='text-gradient btn-link bg-amber-500 shadow-lg shadow-black  text-white  rounded-full px-10 font-bold py-3 hover:bg-teal-500'>Hire Me
-                </a>
+                <Link to='/contact' className='text-gradient btn-link bg-amber-500 shadow-lg shadow-black  text-white  rounded-full px-10 font-bold py-3 hover:bg-teal-500'>Hire Me
+                </Link>
 
             </div>
         </div>
