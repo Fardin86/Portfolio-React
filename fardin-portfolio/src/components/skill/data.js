@@ -12,7 +12,7 @@ const data = [
         id: 1,
         src: Cisco,
         title: "CCNA",
-        style: "shadow-cyan-8clr00",
+        style: "shadow-cyan-800",
     },
     {
         id: 2,

@@ -44,7 +44,7 @@ const Footer = () => {
                     <FaWhatsapp size={30} className='' />
                 </a> */}
             </div>
-            <p className='text-center py-4'>&copy;{currentYear} Fardin Hosen. All Rights Reserved.</p>
+            <p className='text-center py-4 text-[11px] md:text-[15px]'>&copy;{currentYear} Fardin Hosen. All Rights Reserved.</p>
 
         </div>
         // </motion.footer>
